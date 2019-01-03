@@ -9,7 +9,5 @@
       <uri>model://sun</uri>
     </include>
 
-    <!-- reference to your plugin -->
-    <plugin name="robot" filename="librobot.so"/>
   </world>
 </sdf>
