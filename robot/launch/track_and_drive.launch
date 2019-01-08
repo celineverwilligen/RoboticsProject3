@@ -1,0 +1,10 @@
+<launch> 
+	<!--opstarten van een lege gazebo wereld met ingeladen world --> 
+	<include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch"> 
+		<arg name="world_file" value="$(find robot)/world/turtlebot_colors.world"/>
+	</include> 
+
+	<node name="tracker" pkg="robot" type="tracker.py" required="true" />
+	<node name="smach" pkg="robot" type="smachscript.py" required="true" />
+	
+</launch>
