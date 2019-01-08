@@ -10,4 +10,4 @@ na clone in home folder van je eigen user (dus niet sudo)
 
 
 gebruik maken van package:
- roslaunch robot hello.launch
+ roslaunch robot track_and_drive.launch
